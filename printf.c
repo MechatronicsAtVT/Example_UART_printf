@@ -14,7 +14,7 @@
 
 void sendByte(uint32_t moduleInstance, char c)
 {
-	MAP_UART_transmitData(moduleInstance, c);
+	UART_transmitData(moduleInstance, c);
 }
 
 static const unsigned long dv[] = {
